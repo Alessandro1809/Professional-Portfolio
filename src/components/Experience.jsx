@@ -19,7 +19,7 @@ const Variants = {
       transition: {
         type: "spring",
         bounce: 0.4,
-        duration: 0.8
+        duration: 0.9
       }
     }
   };
@@ -29,7 +29,7 @@ const Variants = {
             
             <motion.body transition={{layout:{ duration:1}}} layout className="relative w-full h-100vh" >
                 <div data-aos="fade-up">
-                <motion.div layout className='items-center justify-center p-2 pb-4 lg:pt-26 lg:flex lg:gap-12 md:p-4 sm:p-4 md:flex sm:flex lg: md:pb-4 sm:pb-4 md:pt-26 sm:pt-14 pt-14'initial="offscreen" whileInView="onscreen"viewport={{ once: true, amount: 0.8 }}>
+                <motion.div layout className='items-center justify-center p-2 pb-4 lg:pt-26 lg:flex lg:gap-12 md:p-4 sm:p-4 md:flex sm:flex lg: md:pb-4 sm:pb-4 md:pt-26 sm:pt-14 pt-14'initial="offscreen" whileInView="onscreen"viewport={{ once: true, amount: 0.2 }}>
                     
                     <motion.div layout transition={{layout:{ duration:0.5,type:spring}}} onClick={()=> setIsOpen(!isOpen)} className='rounded-lg lg:w-[460px] md:w-[460px] sm:w-[460px] bg-gradient-to-t from-gray-800 to-black mb-12' variants={Variants} >
                         <motion.p layout='position' className='p-2 font-bold text-center text-gray-400 lg:text-4xl hover:cursor-pointer md:text-3xl sm:text-2xl' >Read more about me...</motion.p>
@@ -46,7 +46,7 @@ const Variants = {
                 </motion.div>
                 </div>
                 
-                <motion.div initial="offscreen" whileInView="onscreen"viewport={{ once: true, amount: 0.8 }}>
+                <motion.div initial="offscreen" whileInView="onscreen"viewport={{ once: true, amount: 0.2 }}>
                 <motion.h1 layout className='pt-20 pb-12 text-6xl font-bold text-center text-gray-200' drag
                     dragConstraints={{
                     top: -1,
