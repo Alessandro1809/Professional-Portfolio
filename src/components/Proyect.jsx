@@ -16,21 +16,6 @@ AOS.init();
 
  const Proyect = () => {
   
-  const Variants = {
-    offscreen: {
-      y: 300
-    },
-    onscreen: {
-      y: 0,
-     
-      transition: {
-        type: "spring",
-        bounce: 0.4,
-        duration: 0.8
-      }
-    }
-  };
-  
   return (
     <>
     
@@ -65,8 +50,8 @@ AOS.init();
                     </div>
                 </div>
                 <div className="flex justify-between mt-4">
-                    <p className='flex items-center gap-2 text-xs font-semibold text-gray-300 lg:text-lg md:text-lg sm:text-lg'><img src={git} alt="link image" className='w-5 h-auto lg:w-7 md:w-7 sm:w-7' />Github</p>
-                    <p className='flex items-center gap-2 text-xs font-semibold text-gray-300 lg:text-lg md:text-lg sm:text-lg'><img src={link} alt="link image" className='w-4 h-auto lg:w-6 md:w-6 sm:w-6' />Portfolio</p>
+                <Link to='https://github.com/Alessandro1809/Professional-Portfolio' tearget='__blank' className='transition duration-500 hover:scale-105'><p className='flex items-center gap-2 text-xs font-semibold text-gray-300 lg:text-lg md:text-lg sm:text-lg'><img src={git} alt="link image" className='w-5 h-auto lg:w-7 md:w-7 sm:w-7' />Github</p></Link>
+                <Link to='' target='__blank' className='transition duration-500 hover:scale-105'>  <p className='flex items-center gap-2 text-xs font-semibold text-gray-300 lg:text-lg md:text-lg sm:text-lg'><img src={link} alt="link image" className='w-4 h-auto lg:w-6 md:w-6 sm:w-6' />Portfolio</p></Link>
                     
                 </div>
               </div>
