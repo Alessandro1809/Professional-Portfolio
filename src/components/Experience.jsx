@@ -62,8 +62,8 @@ const Variants = {
                 <motion.div initial="offscreen" whileInView="onscreen"viewport={{ once: true, amount: 0.2 }}>
                 <motion.div layout className='p-4 pb-12 lg:justify-center lg:items-center lg:flex lg:p-4 lg:gap-4 pt-14 lg:w-auto md:pl-40 md:pr-40 sm:pl-28 sm:pr-28'  variants={Variants}>
             
-                <div className="p-1 mb-4 overflow-hidden transition duration-500 shadow-xl md:mb-4 lg:w-64 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 rounded-xl animate-gradient hover:scale-110 lg:h-auto sm:mb-4" data-aos="fade-up">
-                    <div  className=" p-0.2 rounded-xl" data-aos="fade-up">
+                <div className="p-1 mb-4 overflow-hidden transition duration-500 shadow-xl hover:cursor-pointer md:mb-4 lg:w-64 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 rounded-xl animate-gradient hover:scale-110 lg:h-auto sm:mb-4" >
+                    <div  className=" p-0.2 rounded-xl">
                         <div  className="p-0.5 bg-black bg-opacity-20 rounded-xl" data-aos="fade-up">
                             <p className="mb-4 text-xl font-bold text-center text-white" >REACT</p>
                             <p className="text-justify text-white text-opacity-70">JavaScript library for building user interfaces, reusable components that facilitates the development of complex and dynamic web applications.</p>
@@ -72,7 +72,7 @@ const Variants = {
                 </div >
                   
                 
-                <div  className="p-1 mb-4 overflow-hidden transition duration-500 shadow-xl lg:w-64 bg-gradient-to-r from-yellow-300 via-green-500 to-blue-500 rounded-xl animate-gradient hover:scale-110 lg:h-auto md:mb-4 sm:mb-4" data-aos="fade-up">
+                <div  className="p-1 mb-4 overflow-hidden transition duration-500 shadow-xl hover:cursor-pointer lg:w-64 bg-gradient-to-r from-yellow-300 via-green-500 to-blue-500 rounded-xl animate-gradient hover:scale-110 lg:h-auto md:mb-4 sm:mb-4" >
                     <div  className=" p-0.2 rounded-xl"  data-aos="fade-up">
                         <div  className="p-0.5 bg-black bg-opacity-20 rounded-xl" data-aos="fade-up">
                             <p className="mb-4 text-xl font-bold text-center text-white">JAVASCRIPT</p>
@@ -82,7 +82,7 @@ const Variants = {
                 </div >
 
                 
-                <div  className="p-1 mb-4 overflow-hidden transition duration-500 shadow-xl lg:w-64 bg-gradient-to-r from-green-300 via-yellow-500 to-rose-500 rounded-xl animate-gradient hover:scale-110 lg:h-auto md:mb-4 sm:mb-4" data-aos="fade-up">
+                <div  className="p-1 mb-4 overflow-hidden transition duration-500 shadow-xl hover:cursor-pointer lg:w-64 bg-gradient-to-r from-green-300 via-yellow-500 to-rose-500 rounded-xl animate-gradient hover:scale-110 lg:h-auto md:mb-4 sm:mb-4" >
                     <div  className=" p-0.2 rounded-xl" data-aos="fade-up">
                         <div  className="p-0.5 bg-black bg-opacity-20 rounded-xl" data-aos="fade-up">
                             <p className="mb-4 text-xl font-bold text-center text-white">NODE.JS</p>
@@ -91,7 +91,7 @@ const Variants = {
                     </div >
                 </div >
 
-                <div  className="p-1 mb-4 overflow-hidden transition duration-500 shadow-xl lg:w-64 bg-gradient-to-r from-green-400 via-cyan-500 to-rose-500 rounded-xl animate-gradient hover:scale-110 lg:h-auto md:mb-4 sm:mb-4" data-aos="fade-up">
+                <div  className="p-1 mb-4 overflow-hidden transition duration-500 shadow-xl hover:cursor-pointer lg:w-64 bg-gradient-to-r from-green-400 via-cyan-500 to-rose-500 rounded-xl animate-gradient hover:scale-110 lg:h-auto md:mb-4 sm:mb-4">
                     <div  className=" p-0.2 rounded-xl" data-aos="fade-up">
                         <div  className="p-0.5 bg-black bg-opacity-20 rounded-xl" data-aos="fade-up">
                             <p className="mb-4 text-xl font-bold text-center text-white">MONGO DB</p>
@@ -101,7 +101,7 @@ const Variants = {
                 </div >
 
                 
-                <div  className="p-1 mb-4 overflow-hidden transition duration-500 shadow-xl lg:w-64 bg-gradient-to-r from-yellow-200 via-yellow-500 to-green-500 rounded-xl animate-gradient hover:scale-110 lg:h-auto " data-aos="fade-up">
+                <div  className="p-1 mb-4 overflow-hidden transition duration-500 shadow-xl hover:cursor-pointer lg:w-64 bg-gradient-to-r from-yellow-200 via-yellow-500 to-green-500 rounded-xl animate-gradient hover:scale-110 lg:h-auto " >
                     <div  className=" p-0.2 rounded-xl"data-aos="fade-up">
                         <div  className="p-0.5 bg-black bg-opacity-20 rounded-xl" data-aos="fade-up">
                             <p className="mb-4 text-xl font-bold text-center text-white">EXPRESS.JS</p>

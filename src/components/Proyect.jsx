@@ -50,8 +50,8 @@ AOS.init();
                     </div>
                 </div>
                 <div className="flex justify-between mt-4">
-                <Link to='https://github.com/Alessandro1809/Professional-Portfolio' tearget='__blank' className='transition duration-500 hover:scale-105'><p className='flex items-center gap-2 text-xs font-semibold text-gray-300 lg:text-lg md:text-lg sm:text-lg'><img src={git} alt="link image" className='w-5 h-auto lg:w-7 md:w-7 sm:w-7' />Github</p></Link>
-                <Link to='' target='__blank' className='transition duration-500 hover:scale-105'>  <p className='flex items-center gap-2 text-xs font-semibold text-gray-300 lg:text-lg md:text-lg sm:text-lg'><img src={link} alt="link image" className='w-4 h-auto lg:w-6 md:w-6 sm:w-6' />Portfolio</p></Link>
+                <Link to='https://github.com/Alessandro1809/Professional-Portfolio' tearget='__blank' className='transition duration-500 hover:scale-105'><p className='flex items-center gap-2 text-xs font-semibold text-gray-300 transition-colors lg:text-lg md:text-lg sm:text-lg hover:text-green-400'><img src={git} alt="link image" className='w-5 h-auto lg:w-7 md:w-7 sm:w-7' />Github</p></Link>
+                <Link to='https://alessandrodiaz.netlify.app' target='__blank' className='transition duration-500 hover:scale-105'>  <p className='flex items-center gap-2 text-xs font-semibold text-gray-300 transition-colors lg:text-lg md:text-lg sm:text-lg hover:text-green-400'><img src={link} alt="link image" className='w-4 h-auto lg:w-6 md:w-6 sm:w-6' />Portfolio</p></Link>
                     
                 </div>
               </div>

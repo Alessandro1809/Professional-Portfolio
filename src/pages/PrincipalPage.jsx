@@ -8,7 +8,10 @@ import Contact from "../components/Contact";
 import exp from '../assets/experience.png'
 import proy from '../assets/proyectos.png'
 import aten from '../assets/atens.png'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
  const PrincipalPage = () => {
   return (
    <>
@@ -18,19 +21,18 @@ import aten from '../assets/atens.png'
     
     <Welcome/>
 
-    <motion.div className="flex flex-col items-center justify-center w-full h-84 bg-gradient-to-b from-gray-800 to-black"  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }} transition={{ duration: 0.5 }}>
+    <div className="flex flex-col items-center justify-center w-full h-84 bg-gradient-to-b from-gray-800 to-black" data-aos="fade-up">
             <motion.img src={exp} alt="" className='w-64 h-auto ' />
             <h2 id='experience' className="mb-8 text-5xl font-semibold text-center text-transparent bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 bg-clip-text animate-gradient">Experience</h2>
-    </motion.div>
+    </div>
     <Experience/>
-    <div className="flex flex-col items-center justify-center w-full h-84 bg-gradient-to-b from-gray-800 to-black">
+    <div className="flex flex-col items-center justify-center w-full h-84 bg-gradient-to-b from-gray-800 to-black" data-aos="fade-up">
             <img src={proy} alt="" className='w-64 h-auto ' />
             <h1 id='proyects' className="mb-8 text-5xl font-semibold text-center text-transparent bg-gradient-to-r from-yellow-500 via-blue-500 to-green-400 bg-clip-text animate-gradient">Proyects</h1>
     </div>  
     <Proyect/>
     
-    <div className="flex flex-col items-center justify-center w-full h-84 bg-gradient-to-b from-gray-800 to-black">
+    <div className="flex flex-col items-center justify-center w-full h-84 bg-gradient-to-b from-gray-800 to-black" data-aos="fade-up">
             <img src={aten} alt="" className='w-64 h-auto ' />
             <h1 id='contact' className="mb-8 text-5xl font-semibold text-center text-transparent bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 bg-clip-text animate-gradient">Contact</h1>
     </div> 
